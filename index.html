@@ -1,14 +1,44 @@
 <!DOCTYPE html>
-<html lang="zh">
+<html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <title>Zhuo NZ 工作室</title>
+  <meta charset="UTF-8">
+  <title>zhuo.nz</title>
   <style>
-    body { font-family: sans-serif; text-align: center; padding-top: 50px; }
+    body {
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: center;
+      font-family: "Times New Roman", Times, serif;
+    }
+    .title {
+      margin-top: 33vh; /* Positions the title at one-third of the page height */
+      font-size: 33px;
+      text-align: center;
+    }
+    .subtitle {
+      font-family: "FangSong", serif;
+      font-size: 28px;
+      text-align: center;
+    }
+    .contact {
+      position: absolute;
+      bottom: 16.6vh; /* Positions the contact information at one-sixth from the bottom */
+      font-size: 12px;
+      text-align: center;
+      width: 100%;
+    }
   </style>
 </head>
 <body>
-  <h1>Zhuo NZ 工作室</h1>
-  <p>📧 邮箱：contact@zhuo.nz</p>
+  <div class="title">ZHUO</div>
+  <div class="subtitle">拙</div>
+  <div class="contact">
+    <p>If you would like to contact us, please send an e-mail to one of the following addresses.</p>
+    <p>general, publication, exhibition (English / Chinese): press@zhuo.nz</p>
+    <p>employment (English): work@zhuo.nz</p>
+  </div>
 </body>
 </html>
