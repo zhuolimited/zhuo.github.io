@@ -4,29 +4,37 @@
   <meta charset="UTF-8">
   <title>zhuo.nz</title>
   <style>
-    body {
+    html, body {
       margin: 0;
-      height: 100vh;
-      display: flex;
-      flex-direction: column;
-      justify-content: flex-start;
-      align-items: center;
+      height: 100%;
       font-family: "Times New Roman", Times, serif;
     }
+
+    body {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .title-container {
+      text-align: center;
+      line-height: 1.2;
+    }
+
     .title {
-      margin-top: 33vh; /* Positions the title at one-third of the page height */
       letter-spacing: 1em;
       font-size: 55px;
-      text-align: center;
     }
+
     .subtitle {
       font-family: "FangSong", serif;
       font-size: 45px;
-      text-align: center;
     }
+
     .contact {
       position: absolute;
-      bottom: 16.6vh; /* Positions the contact information at one-sixth from the bottom */
+      bottom: 16.6vh;
       font-size: 12px;
       text-align: center;
       width: 100%;
@@ -34,8 +42,10 @@
   </style>
 </head>
 <body>
-  <div class="title"> ZHUO</div>
-  <div class="subtitle">拙</div>
+  <div class="title-container">
+    <div class="title">Z H U O</div>
+    <div class="subtitle">拙</div>
+  </div>
   <div class="contact">
     <p>If you would like to contact us, please send an e-mail to one of the following addresses.</p>
     <p>general, publication, exhibition (English / Chinese): press@zhuo.nz</p>
