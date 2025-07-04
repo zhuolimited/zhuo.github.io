@@ -4,34 +4,30 @@
   <meta charset="UTF-8">
   <title>zhuo.nz</title>
   <style>
-    html, body {
-      margin: 0;
-      height: 100%;
-      font-family: "Times New Roman", Times, serif;
-    }
-
     body {
+      margin: 0;
+      height: 100vh;
       display: flex;
       flex-direction: column;
-      justify-content: center;
+      justify-content: flex-start;
+      align-items: center;
+      font-family: "Times New Roman", Times, serif;
+    }
+    .main-title {
+      margin-top: 33vh; /* 1/3 位置 */
+      display: flex;
+      flex-direction: column;
       align-items: center;
     }
-
-    .title-container {
-      text-align: center;
-      line-height: 1.2;
-    }
-
     .title {
-      letter-spacing: 1em;
       font-size: 55px;
+      letter-spacing: 0.4em; /* 减小间距以更好地居中 */
     }
-
     .subtitle {
       font-family: "FangSong", serif;
-      font-size: 55px;
+      font-size: 45px;
+      margin-top: 10px; /* 与英文的间距 */
     }
-
     .contact {
       position: absolute;
       bottom: 16.6vh;
@@ -42,7 +38,7 @@
   </style>
 </head>
 <body>
-  <div class="title-container">
+  <div class="main-title">
     <div class="title">Z H U O</div>
     <div class="subtitle">拙</div>
   </div>
